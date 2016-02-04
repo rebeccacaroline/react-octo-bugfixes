@@ -1,0 +1,31 @@
+{
+  "name": "react-octo-bugfixes",
+  "version": "1.0.0",
+  "description": "Rewrite of MyBackboneLibrary, but in React!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebeccacaroline/react-octo-bugfixes.git"
+  },
+  "keywords": [
+    "react",
+    "node",
+    "express"
+  ],
+  "author": "Rebecca Holzschuh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rebeccacaroline/react-octo-bugfixes/issues"
+  },
+  "homepage": "https://github.com/rebeccacaroline/react-octo-bugfixes#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "jade": "^1.11.0", // this is mostly for my own ease of transporting the front end html from psychic-octo-bugfixes to here
+    "mongoose": "^4.4.1",
+    "nodemon": "^1.8.1"
+  }
+}
